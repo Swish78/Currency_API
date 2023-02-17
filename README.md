@@ -1,2 +1,2 @@
 # Currency_API
-This Set of APIs helps in conversion operations.
+This Set of APIs helps in currency conversion operations.
