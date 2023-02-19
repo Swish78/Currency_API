@@ -10,7 +10,7 @@ To = input('Final currency: ').upper()
 url = f"https://api.apilayer.com/currency_data/convert?to={To}&from={From}&amount={Amount}"
 payload = {}
 headers = {
-  "apikey": "3cwVDYwe0kJr279vn1Ng1f6vfn8r9mYT"
+  "apikey": ***********************
 }
 response = requests.request("GET", url, headers=headers, data = payload)
 status_code = response.status_code
